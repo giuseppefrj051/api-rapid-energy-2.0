@@ -1,6 +1,5 @@
-// https://careful-rose-yoke.cyclic.app
-require('dotenv').config();
 
+require('dotenv').config();
 const puppeteer = require('puppeteer');
 const express = require('express');
 const app = express();
@@ -13,7 +12,6 @@ var server = app.listen(port, listening);
 var ip = require('ip');
 var ipVar = ip.address();
 
-//require('dotenv').config(); // Load environment variables from .env file
 
 
 // Create a transporter
@@ -61,7 +59,7 @@ const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, mil
 
 function listening() {
     console.log(`Server Live at ${ipVar}:${port}`);
-    assetsReading();
+    //assetsReading();
 }
 function dateTime(){
     date = new Date();
