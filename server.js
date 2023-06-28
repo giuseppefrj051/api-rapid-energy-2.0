@@ -13,7 +13,7 @@ var server = app.listen(port, listening);
 var ip = require('ip');
 var ipVar = ip.address();
 
-require('dotenv').config(); // Load environment variables from .env file
+//require('dotenv').config(); // Load environment variables from .env file
 
 
 // Create a transporter
