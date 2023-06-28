@@ -242,7 +242,7 @@ connectDB();
 
 setInterval(scheduleReading, intervalTime);
 
-//assetsReading();
+assetsReading();
 
 
 
