@@ -61,6 +61,7 @@ const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, mil
 
 function listening() {
     console.log(`Server Live at ${ipVar}:${port}`);
+    assetsReading();
 }
 function dateTime(){
     date = new Date();
@@ -242,7 +243,7 @@ connectDB();
 
 setInterval(scheduleReading, intervalTime);
 
-assetsReading();
+
 
 
 
